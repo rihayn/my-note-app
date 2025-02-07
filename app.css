@@ -8,7 +8,6 @@
 body {
   font-family: "Poppins", sans-serif;
   background-color: #f0f4f8;
-  
 }
 
 .app-container {
@@ -53,6 +52,38 @@ body {
   .saveNote:hover {
     background-color: rgb(44, 72, 43);
   }
+
+  .note {
+    width:708px ;
+    background: #e9ecef;
+    padding: 15px;
+    margin: 10px 0;
+    border-radius: 5px;
+    position: relative;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  }
+  p{
+    color: #333;
+    font-size: 18px;
+  }
+  
+  .delete-btn {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    background:transparent;
+    color: black;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    padding: 5px 10px;
+    font-size: 30px;
+  }
+  
+  .delete-btn:hover {
+    background: #7a7a7a;
+  }
+  
   
 }
 
